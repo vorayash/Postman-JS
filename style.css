@@ -1,0 +1,32 @@
+.bd-clipboard+.highlight {
+    margin-top: 0;
+}
+@media (min-width: 576px)
+.highlight {
+    margin-right: 0;
+    margin-left: 0;
+}
+.highlight {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 576px)
+.highlight {
+    padding: 1.5rem;
+}
+.highlight {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f7f7f9;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+body, div, a, p, span {
+    user-select: text !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
